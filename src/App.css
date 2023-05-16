@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: justify-all;
 }
 
 .App-logo {
@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+Header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -27,6 +27,58 @@
 .App-link {
   color: #61dafb;
 }
+
+/*.App Header {*/
+/*  padding: 30px;*/
+/*  margin-bottom: 50px;*/
+/*}*/
+
+.home-header {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.user-info {
+  display: inline-block;
+  text-align: right;
+}
+
+.App .card-area {
+  text-align: left;
+  margin-left: 130px;
+}
+
+.App .card {
+  display: inline-block;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.App .card img {
+  -webkit-transition: 0.5s; /*사파리 & 크롬*/
+  -moz-transition: 0.5s;  /*파이어폭스*/
+  -ms-transition: 0.5s;	/*인터넷 익스플로러*/
+  -o-transition: 0.5s;  /*오페라*/
+  transition: 0.5s;
+  width: 100%;
+  height: 180px;
+  /*border-radius: 15px 15px 0 0;*/
+  background-size: 100% 280px;
+  background-repeat: no-repeat;
+}
+
+.App .card:hover {
+  opacity: 0.5;
+  height: 100px;
+}
+
 
 @keyframes App-logo-spin {
   from {
